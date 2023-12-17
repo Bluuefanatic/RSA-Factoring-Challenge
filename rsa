@@ -42,4 +42,5 @@ if __name__ == "__main__":
         exit(1)
 
     for filename in argv[1:]:
+        full_path = f"./{filename}"
         process_file(filename)
